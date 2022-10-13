@@ -1,0 +1,915 @@
+body {
+    background-color: lightskyblue;
+    font-family: Arial;
+    font-size: 130%;
+    margin: -8%;
+    margin: 0% 1.2%;
+}
+
+.pular2linhas {
+    display: none;
+}
+
+.tudinho {
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+
+/* header */
+
+header {
+    background-color: rgb(0, 0, 128);
+    width: 102.6%;
+    margin-left: -1.5%;
+}
+
+div.logo {
+    width: 10vw;
+    display: flex;
+    flex-direction: [row];
+}
+
+.logo {
+    width: 50%;
+    margin: 1%;
+}
+
+
+/* Menu */
+
+nav.menu {
+    color: white;
+    width: 90vw;
+    background-color: rgb(0, 0, 128);
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(0, 0, 128);
+}
+
+.menu ul li {
+    background-color: rgb(0, 0, 128);
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background .5s;
+    border-radius: 10px;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: rgb(0, 0, 128);
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    width: 150px;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;
+    display: none;
+}
+
+.mobileicon {
+    display: none;
+}
+
+.menumobile {
+    display: none;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(0, 0, 128);
+    color: white;
+    margin: 0% -1.25%;
+}
+
+.mapa {
+    width: 70%;
+    display: flex;
+    flex-direction: [row];
+    padding: 0.5%;
+}
+
+.autora {
+    width: 20%;
+    display: flex;
+    flex-direction: [row];
+}
+
+div.logof {
+    width: 20%;
+    display: flex;
+    flex-direction: [row];
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+/* index - parte das chamadas */
+
+div.td {
+    margin: 3% 1%;
+}
+
+div#tudo {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+div.primeiros {
+    display: flex;
+    flex-direction: [row];
+}
+
+div.ultimos {
+    display: flex;
+    flex-direction: [row];
+}
+
+div.ultimo {
+    display: flex;
+    flex-direction: [row];
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+div.noticias {
+    width: 50%;
+    border: 20%;
+    background-color: rgba(240, 248, 255, 0.5);
+    margin-left: 1%;
+    padding-left: 1%;
+    border-radius: 7% 0%;
+}
+
+div.noticia {
+    width: 47%;
+    border: 20%;
+    background-color: rgba(240, 248, 255, 0.5);
+    margin-left: 1%;
+    padding: 1%;
+    border-radius: 7% 0%;
+}
+
+img.img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 0%, 0%;
+}
+
+button {
+    background-color: darkblue;
+    border-bottom-color: white;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    float: left;
+    margin-left: 0px;
+}
+
+button a {
+    color: white;
+}
+
+h2.titulo {
+    text-align: center;
+}
+
+.flutuante {
+    float: left;
+    width: 590px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+img.imgc {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* página melhores planos */
+
+div.sa {
+    width: 25%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+div.bs {
+    width: 30%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+div.hv {
+    width: 23%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+div.am {
+    width: 26%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+div.um {
+    width: 23%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+div.sc {
+    width: 30%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+div.gnd {
+    width: 33%;
+    height: 1%;
+    margin-right: 10px;
+}
+
+.float {
+    float: right;
+    margin-top: 15%;
+}
+
+
+/* logos planos de saúde - página melhores planos */
+
+.logos {
+    width: 35%;
+}
+
+.logond {
+    width: 28%;
+}
+
+.logobs {
+    width: 30%;
+}
+
+.logosc {
+    width: 30%;
+}
+
+
+/* tabelas página de melhores planos */
+
+.tbtd {
+    margin-left: 1%;
+}
+
+.tbsc {
+    margin-left: 1%;
+}
+
+.tbum {
+    margin-left: 15%;
+}
+
+.tbam {
+    margin-left: 5%;
+}
+
+.tbhv {
+    margin-left: 15%;
+}
+
+.tbbs {
+    margin-left: 15%;
+}
+
+.tbgnd {
+    margin-left: 15%;
+}
+
+.tbsa {
+    margin-left: 7%;
+}
+
+table {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* formulário */
+
+fieldset#pessoal {
+    background: lightskyblue;
+    border: double rgb(0, 0, 128);
+}
+
+fieldset#completo {
+    background: lightskyblue;
+    border: groove rgb(0, 0, 128);
+}
+
+fieldset#duv {
+    background: lightskyblue;
+    border: dotted rgb(0, 0, 128);
+}
+
+select {
+    border-radius: 15px;
+    padding: 5px 3px;
+    border: 2px solid black;
+}
+
+textarea {
+    border-radius: 15px;
+    padding: 5px 3px;
+    border: 2px solid black;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px 3px;
+}
+
+input[type="submit"] {
+    color: lightgreen;
+    background-color: green;
+    padding: 10px 120px;
+    border: 2px solid black;
+}
+
+input[type="submit"]:hover {
+    color: green;
+    background-color: lightgreen;
+    padding: 8px 118px;
+    border: 2px solid green;
+}
+
+input[type="reset"] {
+    color: white;
+    background-color: red;
+    padding: 10px 60px;
+}
+
+input[type="reset"]:hover {
+    color: white;
+    background-color: black;
+    padding: 8px 58px;
+    border: 2px solid black;
+}
+
+
+/*confirmação de formulário*/
+
+.conf {
+    color: green;
+    border: double green;
+    border-radius: 25px;
+    background-color: #bdecb6;
+    text-align: center;
+    padding: 2%;
+}
+
+a.aqui {
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+
+/* página o que é alimentação saudável */
+
+.piramide,
+.guia,
+.equilibrio {
+    width: 100%;
+    height: auto;
+}
+
+.pa {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.pia {
+    display: none;
+}
+
+.equi,
+.guial {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+
+/* página de saúde mental*/
+
+.saudem {
+    width: 100%;
+    height: auto;
+}
+
+.sm {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.sms {
+    display: none;
+}
+
+.saudm {
+    width: 100%;
+    height: auto;
+}
+
+.saum {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.felicidade {
+    width: 100%;
+    height: auto;
+}
+
+.felic {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.refletir {
+    width: 100%;
+    height: auto;
+}
+
+.reflex {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.meditacao {
+    width: 100%;
+    height: auto;
+}
+
+.medit {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.exfis {
+    width: 100%;
+    height: auto;
+}
+
+.exerc {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.psicologo {
+    width: 100%;
+    height: auto;
+}
+
+.psic {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+
+/* página COVID-19 */
+
+.lavarm {
+    width: 100%;
+    height: auto;
+}
+
+.lvm {
+    float: left;
+    width: 15%;
+    height: auto;
+    margin-right: 8%;
+    margin-bottom: 1%;
+}
+
+.vacina {
+    width: 100%;
+    height: auto;
+}
+
+.vacine {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.vac {
+    display: none;
+}
+
+.limp {
+    width: 100%;
+    height: auto;
+}
+
+.limpe {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.masc {
+    width: 100%;
+    height: auto;
+}
+
+.masca {
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.dist {
+    width: 100%;
+    height: auto;
+}
+
+.dista {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+
+/* Página de hábitos saudáveis */
+
+.alcool {
+    width: 100%;
+    height: auto;
+}
+
+.acol {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.frutas {
+    width: 100%;
+    height: auto;
+}
+
+.frut {
+    float: left;
+    width: 18%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.salad {
+    width: 100%;
+    height: auto;
+}
+
+.sal {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+.agua {
+    width: 100%;
+    height: auto;
+}
+
+.ag {
+    float: right;
+    width: 9%;
+    height: auto;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+
+/* Vídeos da página de exercícios*/
+
+.you {
+    margin-left: 20%;
+    width: 560px;
+    height: 315px;
+}
+
+
+/* final das páginas de informação */
+
+.info {
+    background-color: #ffcccc;
+    border: double red;
+    color: red;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* responsividade */
+
+@media screen and (max-width: 730px) {
+    body {
+        font-size: 100%;
+    }
+    /* Menu */
+    .menu {
+        padding: 1.5rem 4 rem;
+    }
+    .menu ul {
+        display: none;
+    }
+    .mobileicon {
+        display: block;
+        text-align: right;
+    }
+    .menumobile {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menumobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .menumobile .menu {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    }
+    .logo {
+        display: none;
+        width: 0%;
+    }
+    .menumobile ul {
+        list-style: none;
+        padding: 0px;
+        background-color: rgb(0, 0, 128);
+    }
+    .menumobile ul li {
+        background-color: rgb(0, 0, 128);
+        color: white;
+        display: inline-block;
+        position: relative;
+    }
+    .menumobile ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        transition: background .5s;
+        border-radius: 10px;
+    }
+    .menumobile ul li a:hover {
+        display: block;
+        color: rgb(0, 0, 128);
+        background-color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .menumobile ul ul {
+        position: absolute;
+        display: none;
+        width: 150px;
+    }
+    .menumobile ul li:hover>ul {
+        display: block;
+    }
+    .menumobile ul ul li a {
+        display: block;
+    }
+    .menumobile ul ul ul {
+        margin-left: 150px;
+        top: 0px;
+        position: absolute;
+        display: none;
+    }
+    /* fotos */
+    .imgc {
+        width: 90%;
+    }
+    .primeiros {
+        margin: 0px;
+        padding: 0px;
+    }
+    .tudinho {
+        margin: 0.5%;
+    }
+    /* formulário*/
+    .pular2linhas {
+        display: block;
+    }
+    /* Logos da página de melhores planos */
+    .logos {
+        display: none;
+    }
+    .logond {
+        display: none;
+    }
+    .logobs {
+        display: none;
+    }
+    .logosc {
+        display: none;
+    }
+    /* Imagens da página de hábitos saudáveis */
+    .acol {
+        width: 0%;
+        display: none;
+    }
+    .frut {
+        width: 0%;
+        display: none;
+    }
+    .sal {
+        width: 0%;
+        display: none;
+    }
+    .ag {
+        width: 0%;
+        display: none;
+    }
+    /* Vídeos da página de exercícios*/
+    .you {
+        margin-left: 200%;
+        width: 330px;
+        height: 180px;
+    }
+    /* página de saúde mental*/
+    .sms {
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sm {
+        display: none;
+    }
+    /* página melhores planos */
+    .float {
+        float: left;
+        margin-top: 15%;
+    }
+    .tbtd {
+        margin-left: 1%;
+    }
+    .tbsc {
+        margin-right: 10%;
+    }
+    .tbum,
+    .tbhv,
+    .tbbs,
+    .tbgnd,
+    .tbsa {
+        margin-right: 25%;
+    }
+    .tbam {
+        margin-right: 15%;
+    }
+    /* página COVID-19 */
+    .lvm,
+    .dista,
+    .masca,
+    .limpe,
+    .vacine {
+        display: none;
+    }
+    .vac {
+        display: block;
+        width: 90%;
+    }
+    .sm,
+    .saum,
+    .felic,
+    .reflex,
+    .medit,
+    .exerc,
+    .psic {
+        display: none;
+    }
+    .pa,
+    .equi,
+    .guial {
+        display: none;
+    }
+    .pia {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ind {
+        display: none;
+    }
+}

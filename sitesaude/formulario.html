@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Formulário </title>
+    <link rel="stylesheet" type="" href="style.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo do blog" class="logo" />
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="index.html"><b>Home</b></a> </li>
+                    <li> <a href="homemeingles.html"><b> US </b></a> </li>
+                    <li> <a href="#"><b> Matérias </b></a>
+                        <ul>
+
+                            <li><a href="#"><b> Alimentação saudável</b></a>
+                                <ul>
+                                    <li> <a href="saudavel.html"><b>O que é e benefícios</b></a> </li>
+                                    <li> <a href="dicasaude.html"><b> Hábitos para se tornar mais saudável </b></a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="covid.html"><b> COVID-19 </b></a></li>
+                            <li><a href="exercicio.html"><b> Exercício físico </b></a></li>
+                            <li><a href="saudement.html"><b> Saúde Mental </b></a></li>
+                            <li><a href="#"><b> Plano de Saúde </b></a>
+                                <ul>
+                                    <li> <a href="convenioxplano.html"><b>Plano de Saúde X Convênio Médico</b></a> </li>
+                                    <li> <a href="melhoresplanos.html"><b> Melhores Planos para contratar em 2022 </b></a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <a href="formulario.html"><b>Recados ou Depoimentos</b></a> </li>
+                    <li> <a href="mailto:nayla.zelaquette@etec.sp.gov.br?&cc:nayla.cetinic.z@gmail.com"><b> Sujestões para novos conteúdos </b></a></li>
+                </ul>
+                <div class="mobileicon">
+                    <button onclick="menuShow()"><img src="img/menuwhite.svg" class=""/></button>
+                </div>
+            </nav>
+        </div>
+        <div class="menumobile">
+            <ul>
+                <li> <a href="index.html"><b>Home</b></a> </li>
+                <li> <a href="homemeingles.html"><b> US </b></a> </li>
+                <li> <a href="formulario.html"><b>Recados ou Depoimentos</b></a> </li>
+                <li> <a href="mailto:nayla.zelaquette@etec.sp.gov.br?&cc:nayla.cetinic.z@gmail.com"><b> Sujestões para novos conteúdos </b></a></li>
+                <li>
+                    <p><b> Matérias: </b></p>
+                </li>
+                <li> <a href="saudavel.html"><b>O que é e benefícios</b></a> </li>
+                <li> <a href="dicasaude.html"><b> Hábitos para se tornar mais saudável </b></a> </li>
+                <li><a href="covid.html"><b> COVID-19 </b></a></li>
+                <li><a href="exercicio.html"><b> Exercício físico </b></a></li>
+                <li><a href="saudement.html"><b> Saúde Mental </b></a></li>
+                <li> <a href="convenioxplano.html"><b>Plano de Saúde X Convênio Médico</b></a> </li>
+                <li> <a href="melhoresplanos.html"><b> Melhores Planos para contratar em 2022 </b></a> </li>
+            </ul>
+        </div>
+    </header>
+    <div class="tudinho">
+        <h2> Recados ou Depoimentos </h2>
+        <form action="confirmacaoform.html" method="post" autocomplete="on">
+            <fieldset id="completo">
+                <fieldset id="pessoal">
+                    <legend> Informações Pessoais </legend>
+                    <br/>
+                    <label for="nome"> Nome: </label>
+                    <input id="nome" name="nome" type="text" required="required" placeholder="digite seu nome" />
+                    <div class="pular2linhas">
+                        <br/>
+                    </div>
+                    <label for="sobrenome"> Sobrenome: </label>
+                    <input id="sobrenome" name="nome" type="text" required="required" placeholder="digite seu sobrenomenome" />
+                    <div class="pular2linhas">
+                        <br/>
+                    </div>
+                    <label for="datanascimento"> Data de Nascimento </label>
+                    <input id="datanascimento" name="datanascimento" type="date" required="required" />
+                    <div class="pular2linhas">
+                        <br/>
+                    </div>
+                    <label for="telefone"> Telefone </label>
+                    <input id="telefone" name="telefone" type="tel" required="required" placeholder="digite seu nº de telefone" />
+                    <div class="pular2linhas">
+                        <br/>
+                    </div>
+                    <label for="email"> Email </label>
+                    <input id="email" name="" type="email" placeholder="digite seu email" />
+                    <br/> <br/>
+                    <input type="reset" name="limpar" value="Limpar" />
+                    <br/> <br/>
+                </fieldset>
+                <br/>
+                <fieldset id="duv">
+                    <legend> Recados ou Depoimentos </legend>
+                    <br/>
+                    <input id="radio" name="opcao" value="duv" type="radio" /> Dúvida
+                    <input id="radio" name="opcao" value="comnt" type="radio" /> Comentário
+                    <br/> <br/>
+                    <textarea cols=40 id="opiniao" rows="10" name="opiniao" maxlength="5500" wrap="on" placeholder="digite sua dúvida ou comentário... "></textarea>
+                    <br/> <br/>
+                    <input type="checkbox" id="aceite" name="aceite" value="Sim" />
+                    <label for="aceite">Necesito de uma resposta com urgência.</label>
+                    <br/> <br/>
+                    <input type="reset" name="limpar" value="Limpar" />
+                    <br/><br/>
+                </fieldset>
+                <br/>
+                <input type="submit" name="enviar" value="Enviar" />
+            </fieldset>
+        </form>
+        <br/>
+    </div>
+    <footer>
+        <div class="container">
+            <br/>
+            <div class="logof">
+                <img src="img/logo.png" alt="logo do blog" class="logo" />
+            </div>
+            <div class="autora">
+                <address>
+							Feito por: Nayla Cetinic <br/>
+							PW I - ETESP (2022)
+						</address>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.04055934281!2d-46.64158105213438!3d-23.54112796017057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585fbb047051%3A0x1ad799a7c61cd5f3!2sETEC%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1655137477901!5m2!1spt-BR!2sbr"
+                    width="1000" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br/>
+        </div>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
